@@ -1,0 +1,4 @@
+Maria             14
+Susana         18
+Albuquerque 4
+Ramirez                0

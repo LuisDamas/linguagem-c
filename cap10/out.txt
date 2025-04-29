@@ -1,0 +1,16 @@
+total 152
+drwxr-xr-x 1 ldamas ldamas  4096 May 20 15:05 .
+drwxr-xr-x 1 ldamas ldamas  4096 May 20 13:36 ..
+-rw-r--r-- 1 ldamas ldamas   122 May 20 10:45 Makefile
+-rw-r--r-- 1 ldamas ldamas    78 May 20 14:52 alunos.txt
+-rwxr-xr-x 1 ldamas ldamas 16912 May 20 14:32 mycat
+-rw-r--r-- 1 ldamas ldamas   572 May 20 14:32 mycat.c
+-rwxr-xr-x 1 ldamas ldamas 16872 May 20 14:43 mycopy
+-rw-r--r-- 1 ldamas ldamas   669 May 20 14:42 mycopy.c
+-rw-r--r-- 1 ldamas ldamas     0 May 20 15:06 out.txt
+-rwxr-xr-x 1 ldamas ldamas 16880 May 20 13:58 prog1001
+-rw-r--r-- 1 ldamas ldamas   412 May 20 13:58 prog1001.c
+-rwxr-xr-x 1 ldamas ldamas 16704 May 20 14:25 prog1002
+-rw-r--r-- 1 ldamas ldamas   238 May 20 14:27 prog1002.c
+-rwxr-xr-x 1 ldamas ldamas 16936 May 20 14:56 prog1003
+-rw-r--r-- 1 ldamas ldamas   576 May 20 14:56 prog1003.c

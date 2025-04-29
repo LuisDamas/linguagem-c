@@ -1,0 +1,126 @@
+Nº Elementos: 0 Balanceada: Sim
+  In   Order: [ ]
+  Pre  Order: [ ]
+  Post Order: [ ]
+Prima <ENTER>
+Inserir: 50
+Nº Elementos: 1 Balanceada: Sim
+  In   Order: [ 50 ]
+  Pre  Order: [ 50 ]
+  Post Order: [ 50 ]
+Prima <ENTER>
+Inserir: 30
+Nº Elementos: 2 Balanceada: Sim
+  In   Order: [ 30 50 ]
+  Pre  Order: [ 50 30 ]
+  Post Order: [ 30 50 ]
+Prima <ENTER>
+Inserir: 90
+Nº Elementos: 3 Balanceada: Sim
+  In   Order: [ 30 50 90 ]
+  Pre  Order: [ 50 30 90 ]
+  Post Order: [ 30 90 50 ]
+Prima <ENTER>
+Inserir: 95
+Nº Elementos: 4 Balanceada: Sim
+  In   Order: [ 30 50 90 95 ]
+  Pre  Order: [ 50 30 90 95 ]
+  Post Order: [ 30 95 90 50 ]
+Prima <ENTER>
+Inserir: 45
+Nº Elementos: 5 Balanceada: Sim
+  In   Order: [ 30 45 50 90 95 ]
+  Pre  Order: [ 50 30 45 90 95 ]
+  Post Order: [ 45 30 95 90 50 ]
+Prima <ENTER>
+Inserir: 10
+Nº Elementos: 6 Balanceada: Sim
+  In   Order: [ 10 30 45 50 90 95 ]
+  Pre  Order: [ 50 30 10 45 90 95 ]
+  Post Order: [ 10 45 30 95 90 50 ]
+Prima <ENTER>
+Inserir: 49
+Nº Elementos: 7 Balanceada: Não
+  In   Order: [ 10 30 45 49 50 90 95 ]
+  Pre  Order: [ 50 30 10 45 49 90 95 ]
+  Post Order: [ 10 49 45 30 95 90 50 ]
+Prima <ENTER>
+Inserir: 92
+Nº Elementos: 8 Balanceada: Não
+  In   Order: [ 10 30 45 49 50 90 92 95 ]
+  Pre  Order: [ 50 30 10 45 49 90 95 92 ]
+  Post Order: [ 10 49 45 30 92 95 90 50 ]
+Prima <ENTER>
+Inserir: 40
+Nº Elementos: 9 Balanceada: Não
+  In   Order: [ 10 30 40 45 49 50 90 92 95 ]
+  Pre  Order: [ 50 30 10 45 40 49 90 95 92 ]
+  Post Order: [ 10 40 49 45 30 92 95 90 50 ]
+Prima <ENTER>
+Valor 40 existe? Sim
+Valor 41 existe? Não
+Valor 42 existe? Não
+Valor 43 existe? Não
+Valor 44 existe? Não
+Valor 45 existe? Sim
+Valor 46 existe? Não
+Valor 47 existe? Não
+Valor 48 existe? Não
+Valor 49 existe? Sim
+Valor 50 existe? Sim
+Prima <ENTER>
+
+Remover: 50
+Nº Elementos: 8 Balanceada: Não
+  In   Order: [ 10 30 40 45 49 90 92 95 ]
+  Pre  Order: [ 90 30 10 45 40 49 95 92 ]
+  Post Order: [ 10 40 49 45 30 92 95 90 ]
+Prima <ENTER>
+Remover: 90
+Nº Elementos: 7 Balanceada: Não
+  In   Order: [ 10 30 40 45 49 92 95 ]
+  Pre  Order: [ 92 30 10 45 40 49 95 ]
+  Post Order: [ 10 40 49 45 30 95 92 ]
+Prima <ENTER>
+Remover: 92
+Nº Elementos: 6 Balanceada: Não
+  In   Order: [ 10 30 40 45 49 95 ]
+  Pre  Order: [ 95 30 10 45 40 49 ]
+  Post Order: [ 10 40 49 45 30 95 ]
+Prima <ENTER>
+Remover: 95
+Nº Elementos: 5 Balanceada: Não
+  In   Order: [ 10 30 40 45 49 ]
+  Pre  Order: [ 30 10 45 40 49 ]
+  Post Order: [ 10 40 49 45 30 ]
+Prima <ENTER>
+Remover: 30
+Nº Elementos: 4 Balanceada: Sim
+  In   Order: [ 10 40 45 49 ]
+  Pre  Order: [ 40 10 45 49 ]
+  Post Order: [ 10 49 45 40 ]
+Prima <ENTER>
+Remover: 40
+Nº Elementos: 3 Balanceada: Sim
+  In   Order: [ 10 45 49 ]
+  Pre  Order: [ 45 10 49 ]
+  Post Order: [ 10 49 45 ]
+Prima <ENTER>
+Remover: 45
+Nº Elementos: 2 Balanceada: Sim
+  In   Order: [ 10 49 ]
+  Pre  Order: [ 49 10 ]
+  Post Order: [ 10 49 ]
+Prima <ENTER>
+Remover: 49
+Nº Elementos: 1 Balanceada: Sim
+  In   Order: [ 10 ]
+  Pre  Order: [ 10 ]
+  Post Order: [ 10 ]
+Prima <ENTER>
+Remover: 10
+Nº Elementos: 0 Balanceada: Sim
+  In   Order: [ ]
+  Pre  Order: [ ]
+  Post Order: [ ]
+Prima <ENTER>

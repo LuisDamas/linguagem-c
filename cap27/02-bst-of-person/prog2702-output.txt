@@ -1,0 +1,173 @@
+Carregar os registos em todas as BST
+BST: [BST_names] Registo já existe!!! -> | 1990-03-03 | f | Avery    | Smith    | --> | 1990-03-03 | m | Avery    | Smith    |
+BST: [BST_ages] Registo já existe!!! -> | 1990-03-03 | f | Avery    | Smith    | --> | 1990-03-03 | m | Avery    | Smith    |
+BST: [BST_initials] Registo já existe!!! -> | 1990-03-03 | f | Avery    | Smith    | --> | 1990-03-03 | m | Avery    | Smith    |
+BST: [BST_initials] Registo já existe!!! -> | 1980-06-06 | m | Sidney   | Smith    | --> | 1990-01-02 | m | Sam      | Sousa    |
+BST: [BST_initials] Registo já existe!!! -> | 1995-05-05 | m | Alexa    | Zink     | --> | 1995-05-05 | m | Alex     | Zoe      |
+BST: [BST_initials] Registo já existe!!! -> | 1900-01-01 | F | Zoe      | Bug      | --> | 1999-12-31 | F | Zen      | Bird     |
+BST: [BST_initials] Registo já existe!!! -> | 1980-06-06 | f | Robin    | Big      | --> | 1980-06-06 | F | Ruth     | Bogart   |
+Prima <ENTER> . . . 
+BST: [BST_names] count=11 In-Order
+| 1995-05-05 | m | Alex     | Zoe      |
+| 1995-05-05 | m | Alexa    | Zink     |
+| 1990-03-03 | m | Avery    | Smith    |
+| 1755-11-01 | m | Earth    | Quake    |
+| 1980-06-06 | f | Robin    | Big      |
+| 1980-06-06 | F | Ruth     | Bogart   |
+| 1990-01-02 | m | Sam      | Sousa    |
+| 1980-06-06 | m | Sidney   | Smith    |
+| 2001-02-01 | M | Yuri     | Castro   |
+| 1999-12-31 | F | Zen      | Bird     |
+| 1900-01-01 | F | Zoe      | Bug      |
+BST: [BST_names] count=11 Pre-Order
+| 1990-01-02 | m | Sam      | Sousa    |
+| 1990-03-03 | m | Avery    | Smith    |
+| 1995-05-05 | m | Alex     | Zoe      |
+| 1995-05-05 | m | Alexa    | Zink     |
+| 1980-06-06 | F | Ruth     | Bogart   |
+| 1755-11-01 | m | Earth    | Quake    |
+| 1980-06-06 | f | Robin    | Big      |
+| 2001-02-01 | M | Yuri     | Castro   |
+| 1980-06-06 | m | Sidney   | Smith    |
+| 1999-12-31 | F | Zen      | Bird     |
+| 1900-01-01 | F | Zoe      | Bug      |
+BST: [BST_names] count=11 Post-Order
+| 1995-05-05 | m | Alexa    | Zink     |
+| 1995-05-05 | m | Alex     | Zoe      |
+| 1980-06-06 | f | Robin    | Big      |
+| 1755-11-01 | m | Earth    | Quake    |
+| 1980-06-06 | F | Ruth     | Bogart   |
+| 1990-03-03 | m | Avery    | Smith    |
+| 1980-06-06 | m | Sidney   | Smith    |
+| 1900-01-01 | F | Zoe      | Bug      |
+| 1999-12-31 | F | Zen      | Bird     |
+| 2001-02-01 | M | Yuri     | Castro   |
+| 1990-01-02 | m | Sam      | Sousa    |
+Prima <ENTER> . . . 
+BST: [BST_ages] count=11 In-Order
+| 1755-11-01 | m | Earth    | Quake    |
+| 1900-01-01 | F | Zoe      | Bug      |
+| 1980-06-06 | f | Robin    | Big      |
+| 1980-06-06 | F | Ruth     | Bogart   |
+| 1980-06-06 | m | Sidney   | Smith    |
+| 1990-01-02 | m | Sam      | Sousa    |
+| 1990-03-03 | m | Avery    | Smith    |
+| 1995-05-05 | m | Alex     | Zoe      |
+| 1995-05-05 | m | Alexa    | Zink     |
+| 1999-12-31 | F | Zen      | Bird     |
+| 2001-02-01 | M | Yuri     | Castro   |
+BST: [BST_ages] count=11 Pre-Order
+| 1990-01-02 | m | Sam      | Sousa    |
+| 1980-06-06 | m | Sidney   | Smith    |
+| 1980-06-06 | F | Ruth     | Bogart   |
+| 1755-11-01 | m | Earth    | Quake    |
+| 1900-01-01 | F | Zoe      | Bug      |
+| 1980-06-06 | f | Robin    | Big      |
+| 2001-02-01 | M | Yuri     | Castro   |
+| 1990-03-03 | m | Avery    | Smith    |
+| 1995-05-05 | m | Alex     | Zoe      |
+| 1999-12-31 | F | Zen      | Bird     |
+| 1995-05-05 | m | Alexa    | Zink     |
+BST: [BST_ages] count=11 Post-Order
+| 1980-06-06 | f | Robin    | Big      |
+| 1900-01-01 | F | Zoe      | Bug      |
+| 1755-11-01 | m | Earth    | Quake    |
+| 1980-06-06 | F | Ruth     | Bogart   |
+| 1980-06-06 | m | Sidney   | Smith    |
+| 1995-05-05 | m | Alexa    | Zink     |
+| 1999-12-31 | F | Zen      | Bird     |
+| 1995-05-05 | m | Alex     | Zoe      |
+| 1990-03-03 | m | Avery    | Smith    |
+| 2001-02-01 | M | Yuri     | Castro   |
+| 1990-01-02 | m | Sam      | Sousa    |
+Prima <ENTER> . . . 
+BST: [BST_gender] count=12 In-Order
+| 1980-06-06 | F | Ruth     | Bogart   |
+| 1999-12-31 | F | Zen      | Bird     |
+| 1900-01-01 | F | Zoe      | Bug      |
+| 2001-02-01 | M | Yuri     | Castro   |
+| 1990-03-03 | f | Avery    | Smith    |
+| 1980-06-06 | f | Robin    | Big      |
+| 1995-05-05 | m | Alex     | Zoe      |
+| 1995-05-05 | m | Alexa    | Zink     |
+| 1990-03-03 | m | Avery    | Smith    |
+| 1755-11-01 | m | Earth    | Quake    |
+| 1990-01-02 | m | Sam      | Sousa    |
+| 1980-06-06 | m | Sidney   | Smith    |
+BST: [BST_gender] count=12 Pre-Order
+| 1990-01-02 | m | Sam      | Sousa    |
+| 2001-02-01 | M | Yuri     | Castro   |
+| 1980-06-06 | F | Ruth     | Bogart   |
+| 1999-12-31 | F | Zen      | Bird     |
+| 1900-01-01 | F | Zoe      | Bug      |
+| 1990-03-03 | m | Avery    | Smith    |
+| 1990-03-03 | f | Avery    | Smith    |
+| 1995-05-05 | m | Alex     | Zoe      |
+| 1980-06-06 | f | Robin    | Big      |
+| 1995-05-05 | m | Alexa    | Zink     |
+| 1755-11-01 | m | Earth    | Quake    |
+| 1980-06-06 | m | Sidney   | Smith    |
+BST: [BST_gender] count=12 Post-Order
+| 1900-01-01 | F | Zoe      | Bug      |
+| 1999-12-31 | F | Zen      | Bird     |
+| 1980-06-06 | F | Ruth     | Bogart   |
+| 1980-06-06 | f | Robin    | Big      |
+| 1995-05-05 | m | Alexa    | Zink     |
+| 1995-05-05 | m | Alex     | Zoe      |
+| 1990-03-03 | f | Avery    | Smith    |
+| 1755-11-01 | m | Earth    | Quake    |
+| 1990-03-03 | m | Avery    | Smith    |
+| 2001-02-01 | M | Yuri     | Castro   |
+| 1980-06-06 | m | Sidney   | Smith    |
+| 1990-01-02 | m | Sam      | Sousa    |
+Prima <ENTER> . . . 
+BST: [BST_initials] count=7 In-Order
+| 1990-03-03 | m | Avery    | Smith    |
+| 1995-05-05 | m | Alex     | Zoe      |
+| 1755-11-01 | m | Earth    | Quake    |
+| 1980-06-06 | F | Ruth     | Bogart   |
+| 1990-01-02 | m | Sam      | Sousa    |
+| 2001-02-01 | M | Yuri     | Castro   |
+| 1999-12-31 | F | Zen      | Bird     |
+BST: [BST_initials] count=7 Pre-Order
+| 1990-01-02 | m | Sam      | Sousa    |
+| 1990-03-03 | m | Avery    | Smith    |
+| 1995-05-05 | m | Alex     | Zoe      |
+| 1980-06-06 | F | Ruth     | Bogart   |
+| 1755-11-01 | m | Earth    | Quake    |
+| 2001-02-01 | M | Yuri     | Castro   |
+| 1999-12-31 | F | Zen      | Bird     |
+BST: [BST_initials] count=7 Post-Order
+| 1755-11-01 | m | Earth    | Quake    |
+| 1980-06-06 | F | Ruth     | Bogart   |
+| 1995-05-05 | m | Alex     | Zoe      |
+| 1990-03-03 | m | Avery    | Smith    |
+| 1999-12-31 | F | Zen      | Bird     |
+| 2001-02-01 | M | Yuri     | Castro   |
+| 1990-01-02 | m | Sam      | Sousa    |
+Prima <ENTER> . . . 
+Remover os registos das BST
+[BST_names] Registo não existe!!! -> | 1990-03-03 | f | Avery    | Smith    |
+[BST_ages] Registo não existe!!! -> | 1990-03-03 | f | Avery    | Smith    |
+[BST_initials] Registo não existe!!! -> | 1990-03-03 | f | Avery    | Smith    |
+[BST_initials] Registo não existe!!! -> | 1980-06-06 | m | Sidney   | Smith    |
+[BST_initials] Registo não existe!!! -> | 1995-05-05 | m | Alexa    | Zink     |
+[BST_initials] Registo não existe!!! -> | 1900-01-01 | F | Zoe      | Bug      |
+[BST_initials] Registo não existe!!! -> | 1980-06-06 | f | Robin    | Big      |
+Imprimir BST vazias
+BST: [BST_names] count=0 In-Order
+BST: [BST_names] count=0 Pre-Order
+BST: [BST_names] count=0 Post-Order
+Prima <ENTER> . . . 
+BST: [BST_ages] count=0 In-Order
+BST: [BST_ages] count=0 Pre-Order
+BST: [BST_ages] count=0 Post-Order
+Prima <ENTER> . . . 
+BST: [BST_gender] count=0 In-Order
+BST: [BST_gender] count=0 Pre-Order
+BST: [BST_gender] count=0 Post-Order
+Prima <ENTER> . . . 
+BST: [BST_initials] count=0 In-Order
+BST: [BST_initials] count=0 Pre-Order
+BST: [BST_initials] count=0 Post-Order
+Prima <ENTER> . . . 

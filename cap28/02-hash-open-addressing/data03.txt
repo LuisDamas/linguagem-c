@@ -1,0 +1,10 @@
+Di      111
+connect	746
+governor	882
+aid	222
+anniversary	223
+German	423
+head	425
+iraqi	442
+reservation	425
+bank	395

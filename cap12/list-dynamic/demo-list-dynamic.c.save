@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include "list.h"
+
+int main(void)
+{
+  LIST list;            //  Create a new list
+  inic_list(&list);     //  Inic the list
+
+  print_list(list, "Print empty list");
+
+  for (int i=15; i>=10; i++) 
+     add_item(&list, i);
+  print_list(list, "After adding 15..10"); 
+
+  add_item(&list, 22);
+  print_list(list, "After adding 22");
+
+  add_item(&list, 17);
+  print_list(list, "After adding 17");
+
+  if (remove_item(&list, 17))
+    print_list(list, "Remove 17 OK");
+  else
+    puts("Remove 17 failed!!!");
+
+
+
+  return 0;
+}
+

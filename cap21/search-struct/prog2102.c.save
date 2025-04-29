@@ -1,0 +1,65 @@
+
+
+
+
+
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include "person.h"
+
+#define LEN(x) (sizeof(x)/sizeof(x[0]))
+
+// Dados (declaração global)
+PERSON arr[] = {{"diogo",  "cardoso",  29},
+                {"daniel", "santos",   18},
+                {"pedro",  "guterres", 15},
+                {"diogo",  "cardosa",  29},
+                {"diogo",  "cardoso",  15},
+                {"diogo",  "cardos",   32},
+                {"albano", "zeferino", 14}
+               };
+
+// Chaves de pesquisa (declaração global)
+PERSON keys[] = {{"diogo",  "cardosa",  29},
+                 {"diogo",  "cardoso",  15},
+                 {"diogo",  "cardoso",  29},
+                 {"albano", "zeferino", 14},
+                 {"zeferino", "albano", 14},
+                 {"diogo",  "cardoso",  14},
+                 {"diogo",  "cardosos", 15}
+                };
+
+int main(void)
+{
+  puts("Antes da ordenacao");
+  puts("************************");
+  print_persons(arr, LEN(arr));
+
+  puts("\nOrdenar por Nome, Apelido e Idade");
+  qsort(arr, LEN(arr), sizeof(PERSON), compare_person_direct);
+
+  puts("Depois da ordenacao");
+  puts("************************");
+  print_persons(arr, LEN(arr));
+  printf("\n");
+
+  puts("Resultado das pesquisas");
+  puts("************************");
+
+  for (int i=0; i<LEN(keys); i++)
+  {
+    printf("Procurar por {%-10s, %-10s, %d} --> ", 
+           keys[i].firstName, keys[i].lastName, keys[i].age);
+
+    PERSON *ptr = bsearch(&keys[i], arr, LEN(arr), sizeof(arr[0]),
+                         compare_person_direct);
+    if (ptr==NULL)
+      printf("NÃO ENCONTRADO!!!\n");
+    else
+      printf("Encontrado (index=%d)\n", (int) (ptr-arr));
+  }
+
+  return 0;
+}
